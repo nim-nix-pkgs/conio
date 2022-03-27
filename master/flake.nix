@@ -11,6 +11,7 @@
   inputs.src-conio-master.ref   = "refs/heads/master";
   inputs.src-conio-master.owner = "guevara-chan";
   inputs.src-conio-master.repo  = "conio";
+  inputs.src-conio-master.dir   = "";
   inputs.src-conio-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
