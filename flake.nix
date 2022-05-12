@@ -7,6 +7,14 @@
   inputs.flakeNimbleLib.type  = "github";
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
+  inputs."conio-master".dir   = "master";
+  inputs."conio-master".owner = "nim-nix-pkgs";
+  inputs."conio-master".ref   = "master";
+  inputs."conio-master".repo  = "conio";
+  inputs."conio-master".type  = "github";
+  inputs."conio-master".inputs.nixpkgs.follows = "nixpkgs";
+  inputs."conio-master".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
+  
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@inputs:
   let 
     lib  = flakeNimbleLib.lib;
