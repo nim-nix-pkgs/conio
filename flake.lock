@@ -12,11 +12,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1660781868,
-        "narHash": "sha256-DjOltLG1uQEE1NJpRobHMge94AdkKO9iwusrCXG2l4I=",
+        "lastModified": 1661565369,
+        "narHash": "sha256-F8hAB0wHw54Jn3PY3+KcGEN39FyuS0LoOuHZVTJoLpc=",
         "owner": "nim-nix-pkgs",
         "repo": "conio",
-        "rev": "7e1411b97cc53b63b025136cd1918af7b9aaa1da",
+        "rev": "28ba342b0d32b34c3c2b2851b41cea9e03f94658",
         "type": "github"
       },
       "original": {
@@ -51,8 +51,8 @@
     "nixpkgs": {
       "locked": {
         "lastModified": 0,
-        "narHash": "sha256-BBeCZwZImtjP3oYy4WogkQYy5OxNyfNciVSc1AfZgLQ=",
-        "path": "/nix/store/z8fi1f38y14lmsyhnph1l98qr3r9x7wr-source",
+        "narHash": "sha256-19Ib1b7Ny+yGhnxwnH1KhhB2hvALuNuqevA6XzqkQmo=",
+        "path": "/nix/store/5mdm97ryfgnsh02h7jiragdmcgh6vbvp-source",
         "type": "path"
       },
       "original": {
